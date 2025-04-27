@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 20px;
+}
+
+.form-input {
+  border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid grey;
+}
+
+.form-button {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+}

@@ -1,0 +1,12 @@
+.todo-list {
+  list-style-type: none;
+}
+
+.todo-title {
+  display: inline-block;
+  width: 300px;
+}
+
+.completed .todo-title {
+  text-decoration: line-through;
+}

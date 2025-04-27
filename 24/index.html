@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>hillel DZ-23</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <pre>
+      Зробити валідацію для надсилання повідомлення з використанням регулярних виразів:
+
+      Поля:
+
+        Name - обов'язкове текстове поле
+        Message - текстове поле не менше 5 символів
+        Phone number - обов'язкове поле типу phone. З початком на +380
+        Email - email обов'язково повинен мати @ та крапку
+        Після відправки, в консоль відображаємо дані, які ввів користувач.
+
+      Під час помилки показувати її під полем.
+    </pre>
+    <form class="form">
+      <h2 class="form-title">We would like to help you</h2>
+      
+      <input id="name" class="form-input" type="text" name="name" placeholder="Name">
+      <textarea id="message" class="form-input form-message" name="message" placeholder="Message"></textarea>
+      
+      <h3 class="form-subtitle">How to answer you?</h3>
+
+      <input id="phone" class="form-input" type="tel" name="phone" placeholder="Phone number">
+      <input id="email" class="form-input" type="email" name="email" placeholder="Email">
+      
+      <button class="form-button" type="submit">Send message</button>
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+</html>

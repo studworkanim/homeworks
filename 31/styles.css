@@ -1,0 +1,15 @@
+pre {
+  white-space: break-spaces;
+}
+
+.weather-widget {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px 0;
+  width: 300px;
+  padding: 25px;
+  border: 1px solid #98b1c2;
+  background: #f6fdff;
+  border-radius: 10px;
+}
